@@ -25,7 +25,7 @@ app.controller('FirstCtrl', function ($scope, $http) {
 		    url: 'https://bitbucket.org/api/1.0/oauth/request_token',
 		    method: 'POST',
 		    data:{
-		    	oauth_callback: 'http://localhost/scm-management/'
+		    	oauth_callback: 'http://hatu87.github.io/gitmanagement/'
 		    }
 		};
 
